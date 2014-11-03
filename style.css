@@ -2,6 +2,11 @@ html {
     font-family: sans-serif;
 }
 
+.warning {
+    width: 370px;
+    text-decoration: italic;
+}
+
 #download {
     float: left;
     font-size: 30px;
