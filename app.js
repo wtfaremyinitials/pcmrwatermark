@@ -34,6 +34,10 @@ function previewfile(file) {
 
 function previewimage(image) {
     image.width = 250;
+
+    if(holder.firstElementChild)
+        holder.removeChild(holder.firstElementChild)
+
     holder.appendChild(image);
 }
 
